@@ -1,6 +1,7 @@
 #include "WindowX.h"
 #include "HRException.h"
 #include "DXGraphic.h"
+#include "GLGraphic.h"
 
 
 // wndClass类实例
@@ -69,7 +70,8 @@ WindowX::WindowX(int width, int height, std::string titleName)
 
 	ShowWindow(hWnd, SW_SHOW);
 
-	pGfx = std::make_unique<DXGraphic>(hWnd, (float)width, (float)height);
+	//pGfx = std::make_unique<DXGraphic>(hWnd, (float)width, (float)height);
+	pGfx = std::make_unique<GLGraphic>(hWnd, (float)width, (float)height);
 
 	// 注册RawInput 消息
 	RAWINPUTDEVICE rid = {};

@@ -57,6 +57,9 @@
     <ClCompile Include="TimerX.cpp">
       <Filter>源文件\Utils</Filter>
     </ClCompile>
+    <ClCompile Include="GLGraphic.cpp">
+      <Filter>源文件\OpenGL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WindowX.h">

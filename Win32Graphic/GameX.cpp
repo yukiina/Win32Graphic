@@ -24,7 +24,7 @@ int GameX::Run()
 		}
 		else {
 			// 绘制前清空颜色, 深度, 模板 缓冲
-			wnd.GetGfx().ClearBuffer(0, 1, 0);
+			wnd.GetGfx().ClearBuffer(0, 1, 1);
 			// 绘制的逻辑
 			Update();
 			// 绘制后交换(拷贝)缓冲, 使画面呈现在屏幕上

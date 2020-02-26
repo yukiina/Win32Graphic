@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClCompile Include="DXGraphic.cpp" />
     <ClCompile Include="GameX.cpp" />
+    <ClCompile Include="GLGraphic.cpp" />
     <ClCompile Include="HRException.cpp" />
     <ClCompile Include="KeyBoard.cpp" />
     <ClCompile Include="Mouse.cpp" />
